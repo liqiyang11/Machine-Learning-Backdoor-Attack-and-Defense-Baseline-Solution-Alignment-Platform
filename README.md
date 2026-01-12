@@ -40,6 +40,19 @@ pip install -r requirements.txt
 ```
 
 🧩 Project Structure
+```
+.
+├── attacks/            # Implementation of attack algorithms
+├── defenses/           # Implementation of defense algorithms
+├── models/             # Standardized model architectures (VGG, ResNet, etc.)
+├── data/               # Data loaders and pre-processing scripts
+│   ├── mnist.py
+│   ├── gtsrb.py
+│   └── pubfig.py
+├── utils/              # Evaluation metrics and alignment tools
+├── main.py             # Entry point
+└── README.md
+```
 
 
 📜 Citation
