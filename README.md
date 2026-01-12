@@ -45,12 +45,13 @@ pip install -r requirements.txt
 📜 Citation
 If you find this platform useful in your research, please consider citing our work:
 ```
-@misc{yourproject2023,
-  author = {Your Name and Collaborators},
-  title = {Machine Learning Backdoor Attack and Defense Baseline Alignment Platform},
-  year = {2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/your-username/your-repo-name}}
+@misc{sun2025isolatetriggerdetectingeliminating,
+      title={Isolate Trigger: Detecting and Eliminating Adaptive Backdoor Attacks}, 
+      author={Chengrui Sun and Hua Zhang and Haoran Gao and Shang Wang and Zian Tian and Jianjin Zhao and Qi Li and Hongliang Zhu and Zongliang Shen and Anmin Fu},
+      year={2025},
+      eprint={2508.04094},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2508.04094}, 
 }
 ```
