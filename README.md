@@ -33,8 +33,6 @@ PUBFIG,Color (RGB),3 x 224 x 224*,43,"Face Recognition. High-resolution validati
 
 🚀 Getting Started
 Installation
-Bash
-
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
