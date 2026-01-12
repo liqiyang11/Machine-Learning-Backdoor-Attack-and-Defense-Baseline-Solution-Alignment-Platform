@@ -28,12 +28,13 @@ Our choice of datasets and model structures is guided by three principles:
 **Supported Datasets**
 We have selected the following three datasets to cover a wide range of complexities:
 
-Dataset,Type,Dimensions,Classes,Purpose & Application
-MNIST,Grayscale,1 x 28 x 28,10,Rapid Validation. Ideal for debugging and quick proof-of-concept experiments.
-GTSRB,Color (RGB),3 x 32 x 32,43,Autonomous Driving. German Traffic Sign Recognition Benchmark. Adds complexity with color and more classes.
-PUBFIG,Color (RGB),3 x 224 x 224*,43,"Face Recognition. High-resolution validation adapted for large models (e.g., VGG16)."
+| Dataset | Type | Dimensions | Classes | Purpose & Application |
+| :--- | :--- | :--- | :--- | :--- |
+| **MNIST** | Grayscale | `1 x 28 x 28` | 10 | **Rapid Validation.** Ideal for debugging and quick proof-of-concept experiments. |
+| **GTSRB** | Color (RGB) | `3 x 32 x 32` | 43 | **Autonomous Driving.** German Traffic Sign Recognition Benchmark. Adds complexity with color and more classes. |
+| **PUBFIG** | Color (RGB) | `3 x 224 x 224`* | 43 | **Face Recognition.** High-resolution validation adapted for large models (e.g., VGG16). |
 
-## 🚀 Getting Started
+## 🚀 Getting Started（tmp）
 **Installation**
 ```
 git clone https://github.com/your-username/your-repo-name.git
@@ -60,7 +61,7 @@ python main.py --mode defense \
                --model vgg16
 ```
 
-## 🧩 Project Structure
+## 🧩 Project Structure（tmp）
 ```
 .
 ├── attacks/            # Implementation of attack algorithms
