@@ -39,6 +39,25 @@ cd your-repo-name
 pip install -r requirements.txt
 ```
 
+Usage Example
+Note: Below is a conceptual usage example. Please adjust arguments based on your actual code.
+
+Running a Backdoor Attack (e.g., BadNets) on GTSRB:
+```
+python main.py --mode attack \
+               --method badnets \
+               --dataset gtsrb \
+               --model resnet18 \
+               --trigger_patch ./triggers/patch.png
+```
+Running a Defense (e.g., Neural Cleanse) on PUBFIG:
+```
+python main.py --mode defense \
+               --method neural_cleanse \
+               --dataset pubfig \
+               --model vgg16
+```
+
 🧩 Project Structure
 ```
 .
