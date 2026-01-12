@@ -6,26 +6,26 @@ This project is a comprehensive benchmark and alignment platform designed to sta
 
 ## 🎯 Motivation
 
-In the process of conducting research and submitting papers, we identified several critical pain points regarding the reproduction and comparison of existing backdoor metrics:
+In the process of conducting research and submitting papers, we identified several critical **pain points** regarding the reproduction and comparison of existing backdoor metrics:
 
-Framework Heterogeneity: Existing methods often rely on different deep learning frameworks (e.g., PyTorch vs. TensorFlow), making direct integration and comparison difficult.
+**Framework Heterogeneity**: Existing methods often rely on different deep learning frameworks (e.g., PyTorch vs. TensorFlow), making direct integration and comparison difficult.
 
-Misalignment of Models & Datasets: Reproducing results on "similar" but not identical dataset specifications significantly increases the workload for subsequent researchers and introduces confounding variables.
+**Misalignment of Models & Datasets**: Reproducing results on "similar" but not identical dataset specifications significantly increases the workload for subsequent researchers and introduces confounding variables.
 
-Implementation Discrepancies: Even when using the same model architecture, differences in internal node definitions or layer naming conventions cause significant difficulties in transferability and code reuse.
+**Implementation Discrepancies**: Even when using the same model architecture, differences in internal node definitions or layer naming conventions cause significant difficulties in transferability and code reuse.
 
-Our Solution: We provide a unified platform with aligned environments, standardized model definitions, and curated datasets to ensure fair and efficient benchmarking.
+**Our Solution**: We provide a unified platform with aligned environments, standardized model definitions, and curated datasets to ensure fair and efficient benchmarking.
 
 ## 📊 Dataset Selection Strategy
 Our choice of datasets and model structures is guided by three principles:
 
-Prevalence: They are frequently used in top-tier academic papers.
+**Prevalence**: They are frequently used in top-tier academic papers.
 
-Diversity: They vary in specifications (channel depth, resolution) to demonstrate the robustness of attacks/defenses across different scenarios.
+**Diversity**: They vary in specifications (channel depth, resolution) to demonstrate the robustness of attacks/defenses across different scenarios.
 
-Applicability: They reinforce the "real-world" relevance of the research, which is crucial for paper acceptance.
+**Applicability**: They reinforce the "real-world" relevance of the research, which is crucial for paper acceptance.
 
-Supported Datasets
+**Supported Datasets**
 We have selected the following three datasets to cover a wide range of complexities:
 
 Dataset,Type,Dimensions,Classes,Purpose & Application
@@ -34,17 +34,17 @@ GTSRB,Color (RGB),3 x 32 x 32,43,Autonomous Driving. German Traffic Sign Recogni
 PUBFIG,Color (RGB),3 x 224 x 224*,43,"Face Recognition. High-resolution validation adapted for large models (e.g., VGG16)."
 
 ## 🚀 Getting Started
-Installation
+**Installation**
 ```
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
 ```
 
-Usage Example
+**Usage Example**
 Note: Below is a conceptual usage example. Please adjust arguments based on your actual code.
 
-Running a Backdoor Attack (e.g., BadNets) on GTSRB:
+**Running a Backdoor Attack (e.g., BadNets) on GTSRB:**
 ```
 python main.py --mode attack \
                --method badnets \
@@ -52,7 +52,7 @@ python main.py --mode attack \
                --model resnet18 \
                --trigger_patch ./triggers/patch.png
 ```
-Running a Defense (e.g., Neural Cleanse) on PUBFIG:
+**Running a Defense (e.g., Neural Cleanse) on PUBFIG:**
 ```
 python main.py --mode defense \
                --method neural_cleanse \
