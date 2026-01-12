@@ -1,9 +1,11 @@
 # Machine-Learning-Backdoor-Attack-and-Defense-Baseline-Solution-Alignment-Platform
 
-📖 Introduction
+## 📖 Introduction
+
 This project is a comprehensive benchmark and alignment platform designed to standardize the evaluation of Backdoor Attacks and Defenses in Deep Learning. It aims to bridge the gap between disparate experimental settings, enabling researchers to fairly compare methods and accelerate the reproduction of state-of-the-art (SOTA) results.
 
-🎯 Motivation
+## 🎯 Motivation
+
 In the process of conducting research and submitting papers, we identified several critical pain points regarding the reproduction and comparison of existing backdoor metrics:
 
 Framework Heterogeneity: Existing methods often rely on different deep learning frameworks (e.g., PyTorch vs. TensorFlow), making direct integration and comparison difficult.
@@ -14,7 +16,7 @@ Implementation Discrepancies: Even when using the same model architecture, diffe
 
 Our Solution: We provide a unified platform with aligned environments, standardized model definitions, and curated datasets to ensure fair and efficient benchmarking.
 
-📊 Dataset Selection Strategy
+## 📊 Dataset Selection Strategy
 Our choice of datasets and model structures is guided by three principles:
 
 Prevalence: They are frequently used in top-tier academic papers.
@@ -31,7 +33,7 @@ MNIST,Grayscale,1 x 28 x 28,10,Rapid Validation. Ideal for debugging and quick p
 GTSRB,Color (RGB),3 x 32 x 32,43,Autonomous Driving. German Traffic Sign Recognition Benchmark. Adds complexity with color and more classes.
 PUBFIG,Color (RGB),3 x 224 x 224*,43,"Face Recognition. High-resolution validation adapted for large models (e.g., VGG16)."
 
-🚀 Getting Started
+## 🚀 Getting Started
 Installation
 ```
 git clone https://github.com/your-username/your-repo-name.git
@@ -58,7 +60,7 @@ python main.py --mode defense \
                --model vgg16
 ```
 
-🧩 Project Structure
+## 🧩 Project Structure
 ```
 .
 ├── attacks/            # Implementation of attack algorithms
@@ -74,7 +76,7 @@ python main.py --mode defense \
 ```
 
 
-📜 Citation
+## 📜 Citation
 If you find this platform useful in your research, please consider citing our work:
 ```
 @misc{sun2025isolatetriggerdetectingeliminating,
