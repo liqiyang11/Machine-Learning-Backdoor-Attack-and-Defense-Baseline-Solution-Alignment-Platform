@@ -34,6 +34,8 @@ We have selected the following three datasets to cover a wide range of complexit
 | **GTSRB** | Color (RGB) | `3 x 32 x 32` | 43 | **Autonomous Driving.** German Traffic Sign Recognition Benchmark. Adds complexity with color and more classes. |
 | **PUBFIG** | Color (RGB) | `3 x 224 x 224`* | 43 | **Face Recognition.** High-resolution validation adapted for large models (e.g., VGG16). |
 
+* Note: The PUBFIG dataset in this framework is resized to 224x224 to fit standard VGG16 input requirements.
+
 ## 🚀 Getting Started（tmp）
 **Installation**
 ```
