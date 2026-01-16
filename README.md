@@ -36,45 +36,23 @@ We have selected the following three datasets to cover a wide range of complexit
 
 * Note: The PUBFIG dataset in this framework is resized to 224x224 to fit standard VGG16 input requirements.
 
-## 🚀 Getting Started（tmp）
+## 🚀 Getting Started
 **Installation**
 ```
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-pip install -r requirements.txt
+git clone https://github.com/ouroborosscr/Machine-Learning-Backdoor-Attack-and-Defense-Baseline-Solution-Alignment-Platform.git
 ```
 
-**Usage Example**
-Note: Below is a conceptual usage example. Please adjust arguments based on your actual code.
-
-**Running a Backdoor Attack (e.g., BadNets) on GTSRB:**
-```
-python main.py --mode attack \
-               --method badnets \
-               --dataset gtsrb \
-               --model resnet18 \
-               --trigger_patch ./triggers/patch.png
-```
-**Running a Defense (e.g., Neural Cleanse) on PUBFIG:**
-```
-python main.py --mode defense \
-               --method neural_cleanse \
-               --dataset pubfig \
-               --model vgg16
-```
-
-## 🧩 Project Structure（tmp）
+## 🧩 Project Structure
 ```
 .
-├── attacks/            # Implementation of attack algorithms
-├── defenses/           # Implementation of defense algorithms
-├── models/             # Standardized model architectures (VGG, ResNet, etc.)
-├── data/               # Data loaders and pre-processing scripts
-│   ├── mnist.py
-│   ├── gtsrb.py
-│   └── pubfig.py
-├── utils/              # Evaluation metrics and alignment tools
-├── main.py             # Entry point
+├── Backdoor Attacks/   # Implementation of attack algorithms
+│   └── BadNets
+├── Backdoor Defenses/  # Implementation of defense algorithms
+│   ├── SVD
+│   ├── STRIP
+│   └── NeuralCleanse
+├── Demo Video/         # Demonstrate the usage of the WebUI through video
+├── WebUI/              # Visualization Platform
 └── README.md
 ```
 
